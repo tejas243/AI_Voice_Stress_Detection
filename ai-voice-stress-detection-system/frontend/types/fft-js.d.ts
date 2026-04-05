@@ -1,0 +1,2 @@
+declare module "fft-js";
+

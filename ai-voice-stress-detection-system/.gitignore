@@ -1,0 +1,9 @@
+**/node_modules/
+**/.next/
+**/.turbo/
+frontend/.next/
+backend/.venv/
+backend/__pycache__/
+*.log
+.DS_Store
+
