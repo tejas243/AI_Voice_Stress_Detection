@@ -1,0 +1,18 @@
+{
+  "labels": ["Low", "Medium", "High"],
+  "featureVersion": "v1",
+  "target_sr": 16000,
+  "feature_params": {
+    "target_sr": 16000,
+    "n_mfcc": 13,
+    "n_mels": 40,
+    "n_fft": 2048,
+    "hop_length": 512
+  },
+  "window_params": {
+    "window_seconds": 1.5,
+    "hop_seconds": 0.75
+  },
+  "aggregation": "mean_std"
+}
+
